@@ -34,7 +34,7 @@ const siteConfig = {
       label: 'Author',
     },
     {
-      href: 'https://www.github.com/go-echarts/go-echarts',
+      href: 'https://www.github.com/nj-apps/go-echarts',
       label: 'GitHub',
     },
   ],

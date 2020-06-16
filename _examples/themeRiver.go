@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/go-echarts/go-echarts/charts"
+	"github.com/nj-apps/go-echarts/charts"
 )
 
 var trRawData = [][]int{

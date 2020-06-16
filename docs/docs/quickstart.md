@@ -7,7 +7,7 @@ sidebar_label: 快速开始
 ### 安装
 
 ```shell
-$ go get github.com/go-echarts/go-echarts/...
+$ go get github.com/nj-apps/go-echarts/...
 ```
 
 ### 启航
@@ -22,7 +22,7 @@ import (
     "os"
     "time"
 
-    "github.com/go-echarts/go-echarts/charts"
+    "github.com/nj-apps/go-echarts/charts"
 )
 
 var nameItems = []string{"衬衫", "牛仔裤", "运动裤", "袜子", "冲锋衣", "羊毛衫"}
@@ -90,7 +90,7 @@ func main() {
 或者你可以运行 `example/main.go` 预览所有示例
 
 ```shell
-$ cd your/gopath/src/github.com/go-echarts/go-echarts/example
+$ cd your/gopath/src/github.com/nj-apps/go-echarts/example
 $ go build .
 $ ./example
 ```

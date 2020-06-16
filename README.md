@@ -13,27 +13,27 @@
     <a href="https://ci.appveyor.com/project/go-echarts/go-echarts">
         <img src="https://ci.appveyor.com/api/projects/status/kdxi0s1nc1t6dqn0?svg=true" alt="Build Status">
     </a>
-    <a href="https://goreportcard.com/report/github.com/go-echarts/go-echarts">
-        <img src="https://goreportcard.com/badge/github.com/go-echarts/go-echarts" alt="Go Report Card">
+    <a href="https://goreportcard.com/report/github.com/nj-apps/go-echarts">
+        <img src="https://goreportcard.com/badge/github.com/nj-apps/go-echarts" alt="Go Report Card">
     </a>
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="MIT License">
     </a>
-        <a href="https://godoc.org/github.com/go-echarts/go-echarts">
-        <img src="https://godoc.org/github.com/go-echarts/go-echarts?status.svg" alt="GoDoc">
+        <a href="https://godoc.org/github.com/nj-apps/go-echarts">
+        <img src="https://godoc.org/github.com/nj-apps/go-echarts?status.svg" alt="GoDoc">
     </a>
 </p>
 
 > If a language can be used to build web scrapers, it definitely needs to provide a graceful data visualizing library. --- by chenjiandongx
 
-In the Golang ecosystem, there are not many choices for data visualizing libraries. The development of [go-echarts](https://github.com/go-echarts/go-echarts) aims to provide a simple yet powerful data visualizing library for Golang. [Echarts](https://echarts.baidu.com) is an outstanding charting and visualizing library opensourced by Baidu, it supports adorable chart types and various interactive features. There are many language bindings for Echarts, for example, [pyecharts](https://github.com/pyecharts/pyecharts). go-echarts learns from pyecharts and has evolved a lot.
+In the Golang ecosystem, there are not many choices for data visualizing libraries. The development of [go-echarts](https://github.com/nj-apps/go-echarts) aims to provide a simple yet powerful data visualizing library for Golang. [Echarts](https://echarts.baidu.com) is an outstanding charting and visualizing library opensourced by Baidu, it supports adorable chart types and various interactive features. There are many language bindings for Echarts, for example, [pyecharts](https://github.com/pyecharts/pyecharts). go-echarts learns from pyecharts and has evolved a lot.
 
 [中文 README](README_CN.md)
 
 ### 🔰 Installation
 
 ```shell
-$ go get -u github.com/go-echarts/go-echarts/...
+$ go get -u github.com/nj-apps/go-echarts/...
 ```
 
 ### ✨ Features
@@ -98,7 +98,7 @@ Now visit http://localhost:8081 in your browser and you'll see the same bar char
 
 Run the demo program under `_examples/` to view all the above chart examples.
 ```shell
-$ cd your/gopath/src/github.com/go-echarts/go-echarts/_examples
+$ cd your/gopath/src/github.com/nj-apps/go-echarts/_examples
 $ go build .
 $ ./_examples
 ```
